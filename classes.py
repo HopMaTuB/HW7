@@ -120,7 +120,7 @@ class AddressBook(UserDict):
 
                     birthdays.append({
                         'name': user.name.value,
-                        'congratulation_date': birthday.strftime('%d.%m.%Y')
+                        'congratulation': birthday.strftime('%d.%m.%Y')
                         })
         return birthdays                
 
