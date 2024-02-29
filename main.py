@@ -97,7 +97,7 @@ def main():
             print(add_contact(args, book))
         elif command == "phone":
             print(phone_username(args,book))
-        elif command == "birthday":
+        elif command == "show-birthday":
             print(show_birthday(args, book))
         elif command == "birthdays":
             print(birthdays(args, book))
